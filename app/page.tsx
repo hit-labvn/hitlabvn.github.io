@@ -92,30 +92,18 @@ export default function Home() {
           <div className="card-grid">
             <article className="card">
               <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M4 7h16M4 12h16M4 17h10"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
-              <h3>Automotive Multimedia</h3>
-              <p>
-              </p>
-            </article>
-            <article className="card">
-              <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M4 7h16M4 12h16M4 17h10"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect x="7" y="7" width="10" height="10" rx="1" />
+                  <path d="M4 9h3M4 12h3M4 15h3M17 9h3M17 12h3M17 15h3" />
+                  <path d="M9 4v3M12 4v3M15 4v3M9 17v3M12 17v3M15 17v3" />
                 </svg>
               </div>
               <h3>Embedded Systems</h3>
@@ -124,14 +112,17 @@ export default function Home() {
             </article>
             <article className="card">
               <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M5 12h14M12 5v14"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M2 12s4-6 10-6 10 6 10 6-4 6-10 6-10-6-10-6z" />
+                  <circle cx="12" cy="12" r="3" />
                 </svg>
               </div>
               <h3>AI & Computer Vision</h3>
@@ -141,13 +132,18 @@ export default function Home() {
             </article>
             <article className="card">
               <div className="icon">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M7 7h10v10H7z"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                  />
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect x="3" y="5" width="18" height="12" rx="2" />
+                  <path d="M8 21h8" />
+                  <path d="M12 17v4" />
                 </svg>
               </div>
               <h3>Desktop application</h3>
