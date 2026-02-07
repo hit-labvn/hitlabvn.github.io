@@ -179,9 +179,74 @@ export default function Home() {
           <div className="section-header">
             <p className="eyebrow">Proof</p>
             <h2>Trusted by teams that ship mission-critical software.</h2>
-            <p>
-            </p>
+            {/* <p>
+              We align with leadership, embed with product teams, and focus on
+              measurable outcomes.
+            </p> */}
           </div>
+          {/* <div className="testimonial-grid">
+            <article className="testimonial">
+              <div className="stars" aria-label="5 star rating">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>
+                “HITLAB helped us rebuild our platform without slowing down our
+                roadmap. The delivery cadence and technical rigor were
+                unmatched.”
+              </p>
+              <div className="person">
+                <span className="avatar"></span>
+                <div>
+                  <strong>Rina Patel</strong>
+                  <span>VP Engineering, NovaBank</span>
+                </div>
+              </div>
+            </article>
+            <article className="testimonial">
+              <div className="stars" aria-label="5 star rating">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>
+                “We trusted HITLAB with our patient experience stack. The team
+                delivered reliability and compliance without sacrificing speed.”
+              </p>
+              <div className="person">
+                <span className="avatar"></span>
+                <div>
+                  <strong>Marco Silva</strong>
+                  <span>CTO, Pulse Health</span>
+                </div>
+              </div>
+            </article>
+            <article className="testimonial">
+              <div className="stars" aria-label="5 star rating">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <p>
+                “Our logistics platform gained observability, faster releases,
+                and a much stronger engineering culture.”
+              </p>
+              <div className="person">
+                <span className="avatar"></span>
+                <div>
+                  <strong>Jules Fischer</strong>
+                  <span>Director of Product, AtlasWare</span>
+                </div>
+              </div>
+            </article>
+          </div> */}
         </section>
 
         <section className="cta" id="contact">
