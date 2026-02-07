@@ -141,7 +141,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="service" className="section alt">
+        {/* <section id="service" className="section alt">
           <div className="section-header">
             <p className="eyebrow">Service</p>
             <h2>End-to-end delivery, tailored to your goals.</h2>
@@ -179,12 +179,12 @@ export default function Home() {
           <div className="section-header">
             <p className="eyebrow">Proof</p>
             <h2>Trusted by teams that ship mission-critical software.</h2>
-            {/* <p>
+            <p>
               We align with leadership, embed with product teams, and focus on
               measurable outcomes.
-            </p> */}
+            </p>
           </div>
-          {/* <div className="testimonial-grid">
+          <div className="testimonial-grid">
             <article className="testimonial">
               <div className="stars" aria-label="5 star rating">
                 <span></span>
@@ -246,8 +246,8 @@ export default function Home() {
                 </div>
               </div>
             </article>
-          </div> */}
-        </section>
+          </div>
+        </section> */}
 
         <section className="cta" id="contact">
           <div>
@@ -271,10 +271,10 @@ export default function Home() {
         </div>
         <div className="footer-links">
           <a href="#">Home</a>
-          <a href="#expertise">Expertise</a>
+          {/* <a href="#expertise">Expertise</a>
           <a href="#service">Service</a>
           <a href="#projects">Projects</a>
-          <a href="#about">About us</a>
+          <a href="#about">About us</a> */}
           <a href="#contact">Contact</a>
         </div>
       </footer>
