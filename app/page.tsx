@@ -60,9 +60,9 @@ export default function Home() {
           </a>
           <div className="nav-links">
             <a href="#">Home</a>
-            <a href="#expertise">Expertise</a>
+            {/* <a href="#expertise">Expertise</a>
             <a href="#service">Service</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projects</a> */}
             <a href="#about">About us</a>
             <a href="#contact">Contact</a>
             <a className="btn btn-small" href="tel:+84843042307">
@@ -75,6 +75,7 @@ export default function Home() {
       <main>
         <section className="hero">
           <div className="hero-content">
+            <p className="eyebrow">Software development that you can trust</p>
             <h1>
               Build reliable products, fast.
             </h1>
@@ -101,9 +102,24 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3>Automotive</h3>
+              <h3>Automotive Multimedia</h3>
               <p>
-                
+              </p>
+            </article>
+            <article className="card">
+              <div className="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M4 7h16M4 12h16M4 17h10"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </div>
+              <h3>Embedded Systems</h3>
+              <p>
               </p>
             </article>
             <article className="card">
@@ -134,7 +150,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3>Desktop applications</h3>
+              <h3>Desktop application</h3>
               <p>
               </p>
             </article>
