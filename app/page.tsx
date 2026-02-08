@@ -60,10 +60,10 @@ export default function Home() {
           </a>
           <div className="nav-links">
             <a href="#">Home</a>
-            {/* <a href="#expertise">Expertise</a>
-            <a href="#service">Service</a>
-            <a href="#projects">Projects</a> */}
-            <a href="#about">About us</a>
+            <a href="#expertise">Expertise</a>
+            {/* <a href="#service">Service</a> */}
+            {/* <a href="#projects">Projects</a> */}
+            {/* <a href="#about">About us</a> */}
             <a href="#contact">Contact</a>
             <a className="btn btn-small" href="tel:+84843042307">
               +84 84 304 2307
@@ -263,10 +263,10 @@ export default function Home() {
 
         <section className="cta" id="contact">
           <div>
-            <h2>Ready to build with HITLAB?</h2>
+            <h2>Your ideas. Our engineering.</h2>
             <div className="cta-form">
               <div className="cta-inline">
-                <p className="cta-note">Email us to get started:</p>
+                <p className="cta-note">Get in touch with us:</p>
                 <a className="cta-email" href="mailto:inquiry@hit-lab.vn">
                   inquiry@hit-lab.vn
                 </a>
@@ -283,10 +283,10 @@ export default function Home() {
         </div>
         <div className="footer-links">
           <a href="#">Home</a>
-          {/* <a href="#expertise">Expertise</a>
-          <a href="#service">Service</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About us</a> */}
+          <a href="#expertise">Expertise</a>
+          {/* <a href="#service">Service</a> */}
+          {/* <a href="#projects">Projects</a> */}
+          {/* <a href="#about">About us</a> */}
           <a href="#contact">Contact</a>
         </div>
       </footer>
